@@ -59,21 +59,17 @@ cd rpa-stock-exchange-yahoo.git
 
 docker compose up -d --build
 
-# sem background
 python main.py --region <ex: Brazil> --browser <ex: chrome|firefox>
-
-# backgroud
-docker compose exec -it rpa bash
-
-python main.py --region <ex: Brazil> --browser <ex: chrome|firefox>
-
-docker compose logs --tail=100 rpa
 ```
 
-Acesse e visualize o processamento diretamente pelo browser:
+Acesse o ambiente vnc pelo browser:
 - http://localhost:6080/vnc.html
 - senha: common 
 
+```bash
+# rode esse comando no terminal dentro do vnc
+python main.py --region <ex: Brazil> --browser <ex: chrome|firefox>
+```
 
 ## 📫 Contribuindo para rpa-stock-exchange-yahoo
 
