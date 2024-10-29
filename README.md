@@ -42,7 +42,7 @@ python3 -m venv env
 source env/bin/activate
 python -m pip install -r requirements.txt
 
-python main.py --region <ex: Brazil> --browser <ex: chrome|firefox>
+python src/main.py --region <ex: Brazil> --browser <ex: chrome|firefox>
 ```
 
 ## Como executar com docker
@@ -56,8 +56,6 @@ git clone https://github.com/LeviCesar/rpa-stock-exchange-yahoo.git
 cd rpa-stock-exchange-yahoo.git
 
 docker compose up -d --build
-
-python main.py --region <ex: Brazil> --browser <ex: chrome|firefox>
 ```
 
 Acesse o ambiente vnc pelo browser:
@@ -66,7 +64,7 @@ Acesse o ambiente vnc pelo browser:
 
 ```bash
 # rode esse comando no terminal dentro do vnc
-python main.py --region <ex: Brazil> --browser <ex: chrome|firefox>
+python src/main.py --region <ex: Brazil> --browser <ex: chrome|firefox>
 ```
 
 ## 📫 Contribuindo para rpa-stock-exchange-yahoo
