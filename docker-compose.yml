@@ -1,0 +1,16 @@
+services:
+  rpa:
+    build: .
+    volumes:
+      - ./src:/home/common/src
+      - ./drivers:/home/common/drivers
+      - ./spreadsheet:/home/common/spreadsheet
+    working_dir: /home/common
+    ports:
+      - "6080:6080"  # Expose port 6080 for VNC access
+      # command: >
+      #   sh -c "python3 src/main.py --region Brazil --browser chrome"
+    environment:
+      - display=:1 # Set display for VNC
+      - geometry=1600x1200 # Example resolution
+      - depth=24
