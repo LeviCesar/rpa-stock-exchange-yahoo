@@ -24,8 +24,8 @@ Este projeto tem como objetivo desenvolver um crawler utilizando Selenium para c
     - símbolos (symbol)
     - preços (price (intraday))
 - [x] salvar informações em planilha excel
-- [] corrigir problema processamento no chrome
-- [] melhorar tempo de performance
+- [ ] corrigir problema processamento no chrome
+- [ ] melhorar tempo de performance
 
 ## Como executar: sem docker
 Pré-Requisito: 
