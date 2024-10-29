@@ -10,8 +10,6 @@ Projeto teste para: VERX (Serasa S.A.)
 
 Este projeto tem como objetivo desenvolver um crawler utilizando Selenium para capturar informações financeiras diretamente da página do Yahoo Finance Screener (https://finance.yahoo.com/screener/new). O foco é automatizar a coleta de dados específicos, extraindo determinadas colunas de interesse e salvando-as em uma planilha para facilitar a análise e o acompanhamento de informações financeiras.
 
-![alt text](images/presentation.gif)
-
 ![alt text](images/presentation_1.png)
 
 ![alt text](images/presentation_2.png)
